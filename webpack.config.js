@@ -35,6 +35,12 @@ const config = [{
     filename: production ? 'js/[chunkhash].js' : 'js/[name].js',
     publicPath: '/public'
   },
+  
+  ```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
   module: {
     rules: [
