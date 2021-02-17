@@ -1,4 +1,5 @@
 const webpack = require('webpack')
+// this is comment
 
 const webpackConfig = require('./webpack.config')
 const babelServerConfig = require('./.babelrc.server.json')
